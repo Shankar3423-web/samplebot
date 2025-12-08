@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Web3 Today</title>
+  <style>
+    /* Reset & Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fe;
+      color: #2c2c2c;
+      line-height: 1.7;
+    }
+
+    /* Header Styles */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 5%;
+      background: linear-gradient(135deg, #5a2d9e, #7b4bff);
+      color: white;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .company-name {
+      font-size: 1.85rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.8rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      padding: 0.4rem 0.6rem;
+      border-radius: 6px;
+    }
+
+    .nav-links a:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+      text-decoration: none;
+    }
+
+    /* Main Section */
+    .main-content {
+      display: flex;
+      align-items: center;
+      padding: 4rem 5%;
+      gap: 3rem;
+    }
+
+    .main-content .logo-image {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 12px 30px rgba(90, 45, 158, 0.25);
+      object-fit: contain;
+      background: white;
+      padding: 1rem;
+    }
+
+    .company-info {
+      flex: 1;
+      max-width: 620px;
+    }
+
+    .company-info h2 {
+      font-size: 2.3rem;
+      margin-bottom: 1.4rem;
+      color: #4a219a;
+    }
+
+    .company-info p {
+      font-size: 1.12rem;
+      margin-bottom: 1.3rem;
+      color: #333;
+      text-align: justify;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1e1e2f;
+      color: #d0d0e8;
+      text-align: center;
+      padding: 1.6rem 1rem;
+      margin-top: 3.5rem;
+      font-size: 1rem;
+      border-top: 1px solid #322a5e;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        padding: 1rem 2%;
+      }
+
+      .nav-links {
+        margin-top: 1rem;
+        gap: 1.3rem;
+      }
+
+      .main-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 5%;
+        gap: 2rem;
+      }
+
+      .company-info {
+        max-width: 100%;
+      }
+
+      .company-info h2 {
+        font-size: 1.9rem;
+      }
+
+      .main-content .logo-image {
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="company-name">Web3Today</div>
+    <nav class="nav-links">
+      <a href="About.html">About Us</a>
+      <a href="Services.html">Services</a>
+      <a href="ContactUs.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <img
+      src="https://media.licdn.com/dms/image/v2/D560BAQFroT9R4aCM4g/company-logo_200_200/company-logo_200_200/0/1686395126954/web3today_logo?e=2147483647&v=beta&t=JFX1g2mJZAxxtymGLEoGQEcqLThPCAVtJeK-dR9AZN0"
+      alt="Web3 Today Logo" class="logo-image">
+    <div class="company-info">
+      <h2>Building Beyond Technology</h2>
+      <p>
+        At Web3 Today, we don’t just adapt to the future—we build it. We are a forward-thinking tech company at the
+        intersection of <strong>Artificial Intelligence</strong>, <strong>Blockchain</strong>, and <strong>Full-Stack
+          Development</strong>.
+      </p>
+      <p>
+        Our mission is to create intelligent, decentralized, and scalable digital ecosystems that empower businesses
+        to thrive in the Web3 era. From AI-driven analytics and smart contract integration to end-to-end dApp
+        development,
+        we deliver cutting-edge solutions that merge innovation with real-world impact.
+      </p>
+      <p>
+        Whether you're launching a new blockchain protocol, integrating AI into your workflow, or building a responsive
+        full-stack platform, Web3 Today is your trusted partner in transformation.
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Web3 Today. All rights reserved.
+  </footer>
+
+</body>
+
+</html>
